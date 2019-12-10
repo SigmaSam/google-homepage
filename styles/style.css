@@ -1,0 +1,158 @@
+body{
+  font-family: arial;
+  font-size: 13px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  padding-right: 15px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.7;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+/*Up navbar*/
+#left-nav{
+  position: absolute;
+  top: 10px;
+  left: -15px;
+}
+
+#right-nav{
+  position: absolute;
+  top: 0;
+  right: 12px;
+}
+
+#app {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 8px;
+  opacity: 0.75;
+}
+
+#app:hover {
+  opacity: 1;
+}
+
+#singin{
+  font-weight: bold;
+  color: #FFF;
+  background-color: #4387fd;
+  line-height: 28px;
+  padding: 0 12px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+/* Search bar*/
+
+#search {
+  padding-top: 180px;
+  text-align: center;
+}
+
+#search-area {
+    width: 584px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfe1e5;
+    border-radius: 75px;
+    text-align: left;
+}
+
+#search-area:hover {
+    border-color:rgba(223,225,229,0);
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+#lupa {
+  width: 20px;
+  height: 20px;
+  margin-top: 13px;
+  margin-left: 10px;
+  opacity: 0.4;
+
+}
+
+#bar {
+  width: 527px;
+  height: 34px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 7px;
+  font-size: 16px;
+  position: relative;
+  bottom: 5px;
+}
+
+#ba{
+  padding-top: 40px;
+}
+
+.butt {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    min-width: 54px;
+    height: 36px;
+    padding: 0 16px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 0 4px;
+  }
+
+.butt:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    color:#222;
+}
+
+/*low-navbar*/
+
+#low-navbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #f2f2f2;
+  width: 100%;
+}
+
+
+#country {
+    padding-left: 40px;
+    font-size: 15px;
+    opacity: 0.6;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#opt {
+  font-size: 15px;
+  opacity: 0.7;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+#rs{
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
